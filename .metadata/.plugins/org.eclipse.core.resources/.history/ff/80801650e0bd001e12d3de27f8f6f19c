@@ -1,0 +1,14 @@
+
+public class mainProcess {
+
+	public static void main(String[] args) {
+		//SelectionContructor Object = new SelectionContructor();
+		//System.out.println(Object.maxOfThree(2.3, -5.3, 6));
+		//System.out.println(Object.daysInMonthAndYear(3, 2024));
+		
+		LoopContructor Interation = new LoopContructor();
+		//System.out.println(Interation.assign_1(4));
+		System.out.println(Interation._seriFactorial(2));
+	}
+
+}

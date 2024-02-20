@@ -1,0 +1,7 @@
+
+public class LoopContructor {
+	public double assign_1(int n) {
+		if(n == 1) return 1.0;
+		return 1/n+assign_1(n-1);
+	}
+}

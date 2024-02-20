@@ -1,0 +1,9 @@
+
+public class mainProcess {
+
+	public static void main(String[] args) {
+		SelectionContructor Object = new SelectionContructor();
+		System.out.println(Object.maxOfThree(-5.3, 2.5, -0));
+	}
+
+}

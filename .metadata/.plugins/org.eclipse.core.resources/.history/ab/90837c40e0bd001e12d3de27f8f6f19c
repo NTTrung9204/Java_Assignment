@@ -1,0 +1,24 @@
+
+public class LoopContructor {
+	public double assign_1(int n) {
+		if(n == 1) return 1.0;
+		return (double)1/n+assign_1(n-1);
+	}
+	
+	public long factorial(int n) {
+		if(n == 1) return 1;
+		return n*factorial(n-1);
+	}
+	
+	public double _seriFactorial(int n) {
+		if(n==1) return -1;
+		if(n%2 == 0) {
+			return (double)(1/factorial(n)) + _seriFactorial(n-1);
+		}
+		return (double)(-1/factorial(n)) + _seriFactorial(n-1);
+	}
+	
+	public double seriFactorial(int n) {
+		return 15.0 - _seriFactorial(n);
+	}
+}
